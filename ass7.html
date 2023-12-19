@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Employee Payroll Form</title>
+    <style>
+       
+        .border-example {
+            border: 2px solid #333; 
+            padding: 10px; 
+        }
+    </style>
+</head>
+<body bgcolor="orange">
+    <div class="border-example">
+    <h1 align="center"><u>HTML Form tags Assignment</u></h1>
+    <h4 align="right">Date: 19-12-2023</h4>
+    <hr>
+    <br><br>
+    <h2>Objective: Create an HTML form for collecting employee payroll information.</h2>
+    <br><br><br>
+    <h1 align="center"><u>Employee Payroll Form</u></h1>
+    <table align="center">
+        <tr>
+            <td>Employee Name: </td><td><input type="text" placeholder="Employee Name"></td>
+        </tr>
+        <tr>
+            <td>Employee Id: </td><td><input type="text" placeholder="Employee Id"></td>
+        </tr>
+        <tr>
+            <td>Salary: </td><td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Departement: </td><td><select name="dep" >
+                <option value="IT">IT</option>
+                <option value="Accounting">Accounting</option>
+                <option value="Sales">Sales</option>
+                <option value="Marketing">Marketing</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Employee Type: </td><td><input type="radio" name="emp type">Full-time</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="emp type">Part-time</td>
+        </tr>
+        <tr>
+            <td>Bank Account Number: </td><td><input type="text" name="acno"></td>
+        </tr>
+        <tr>
+            <td>Bank Name: </td><td><input type="text" name="bank"></td>
+        </tr>
+        <tr>
+            <td>Tax ID: </td><td><input type="text" name="tax"></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+    </table>
+    <br><br><br><br><br>
+    </div>
+</body>
+</html>
